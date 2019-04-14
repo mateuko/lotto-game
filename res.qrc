@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>ball.png</file>
+        <file>chamber.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>pop_sound.wav</file>
+    </qresource>
+</RCC>
