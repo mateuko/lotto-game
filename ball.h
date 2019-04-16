@@ -53,8 +53,6 @@ public:
     //! Zwraca numer kulki
     int getNumber();
     //! Oblicza prędkość kulki po zderzeniu
-    void collide(double, double, double, double);
-    //! Unieruchamia kulkę
     void immobilize();
     //! Zwraca współczynnik odbicia kulki
     double getCoefficient();

@@ -19,7 +19,7 @@ Game::Game(QWidget *parent)
     chamber->spawn();
 
     QVector<QPoint> points;
-
+    /*
     points<<QPoint(525,120)<<QPoint(575,120)<<QPoint(575,200)<<QPoint(525,175);
     holes[0] = new Hole(points);
     points.clear();
@@ -38,6 +38,7 @@ Game::Game(QWidget *parent)
     {
       scene->addItem(holes[i]);
     }
+    */
 }
 Game *Game::instance = 0;
 Game *Game::getInstance()

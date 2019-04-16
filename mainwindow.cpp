@@ -27,10 +27,10 @@ MainWindow::MainWindow(QWidget *parent) :
 
     Game * game = Game::getInstance();
     ui->numberEdit->setPlainText("1");
-    ui->axisAEdit->setPlainText(QString::number(game->chamber->getBallAxisA(2)));
-    ui->axisBEdit->setPlainText(QString::number(game->chamber->getBallAxisB(2)));
-    ui->coefficientEdit->setPlainText(QString::number(game->chamber->getBallCoefficient(2)));
-    ui->centerEdit->setPlainText(QString::number(game->chamber->getBallCenter(2)));
+    ui->axisAEdit->setPlainText(QString::number(game->chamber->getBallAxisA(1)));
+    ui->axisBEdit->setPlainText(QString::number(game->chamber->getBallAxisB(1)));
+    ui->coefficientEdit->setPlainText(QString::number(game->chamber->getBallCoefficient(1)));
+    ui->centerEdit->setPlainText(QString::number(game->chamber->getBallCenter(1)));
 
 }
 

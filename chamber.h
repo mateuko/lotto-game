@@ -42,6 +42,8 @@ public:
     double getBallCenter(int);
     //! Ustawia długości półosi, współczynnik odbicia oraz przesunięcie środka ciężkości kulki o wybranym numerze
     void setBallProperties(int,int,int,double,double);
+public slots:
+    void collide();
 private:
     QVector<Ball*> balls;
     QPixmap * chamber;
